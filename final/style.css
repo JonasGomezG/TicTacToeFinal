@@ -1,0 +1,15 @@
+.fila{
+    display:flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    padding-bottom: 5px;
+}
+.casilla{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    font-size: 100px;
+}
+.container{
+    margin-left: 430px;
+}

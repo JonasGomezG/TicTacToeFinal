@@ -6,10 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tic Tac Toe</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/tictactoe.png">
 </head>
 <body>
-    <main>
+        <div class="conteo">
+            <div class="textoContador"></div>
+            <div class="contador"></div>
+        </div>
+        <button class="boton"></button>
         <div class="caja"></div>
+        <div class="marcador">
+            <div class="nombreX"></div>
+            <div class="nombreO"></div> <br>
+            <div class="victoriasX"></div>
+            <div class="victoriasO"></div>
+        </div>
         <div class="container" id="contenedor">
             <div class="fila">
                 <div class="casilla"></div>
@@ -27,7 +38,6 @@
                 <div class="casilla"></div>
             </div>
         </div>
-    </main>
 </body>
 
 <script src="tictactoe.js"></script>
